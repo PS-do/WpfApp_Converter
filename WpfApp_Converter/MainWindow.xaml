@@ -113,7 +113,7 @@
                             </Grid.ColumnDefinitions>
                             <Label Content="Введите дюймы" Grid.Row="0" Grid.Column="0"/>
                             <TextBox x:Name="inch_L" Grid.Row="0" Grid.Column="1" Margin="3"/>
-                            <Button Content="Рассчитать" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Margin="15,5" Click="Button_d_Click"/>
+                            <Button Content="Рассчитать" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Margin="15,5" Click="Button_inch_Click"/>
                             <Label Content="Результат" Grid.Row="3" Grid.Column="0" />
                             <TextBox x:Name="inch_res" Grid.Row="3" Grid.Column="1" Margin="3" IsReadOnly="True"/>
                         </Grid>
@@ -130,9 +130,9 @@
                                 <ColumnDefinition Width="Auto"/>
                                 <ColumnDefinition/>
                             </Grid.ColumnDefinitions>
-                            <Label Content="Введите дюймы" Grid.Row="0" Grid.Column="0"/>
+                            <Label Content="Введите футы" Grid.Row="0" Grid.Column="0"/>
                             <TextBox x:Name="foot_L" Grid.Row="0" Grid.Column="1" Margin="3"/>
-                            <Button Content="Рассчитать" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Margin="15,5" Click="Button_d_Click"/>
+                            <Button Content="Рассчитать" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Margin="15,5" Click="Button_foot_Click"/>
                             <Label Content="Результат" Grid.Row="3" Grid.Column="0" />
                             <TextBox x:Name="foot_res" Grid.Row="3" Grid.Column="1" Margin="3" IsReadOnly="True"/>
                         </Grid>
@@ -149,9 +149,9 @@
                                 <ColumnDefinition Width="Auto"/>
                                 <ColumnDefinition/>
                             </Grid.ColumnDefinitions>
-                            <Label Content="Введите дюймы" Grid.Row="0" Grid.Column="0"/>
+                            <Label Content="Введите мили" Grid.Row="0" Grid.Column="0"/>
                             <TextBox x:Name="mile_L" Grid.Row="0" Grid.Column="1" Margin="3"/>
-                            <Button Content="Рассчитать" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Margin="15,5" Click="Button_d_Click"/>
+                            <Button Content="Рассчитать" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Margin="15,5" Click="Button_mile_Click"/>
                             <Label Content="Результат" Grid.Row="3" Grid.Column="0" />
                             <TextBox x:Name="mile_res" Grid.Row="3" Grid.Column="1" Margin="3" IsReadOnly="True"/>
                         </Grid>
@@ -168,9 +168,9 @@
                                 <ColumnDefinition Width="Auto"/>
                                 <ColumnDefinition/>
                             </Grid.ColumnDefinitions>
-                            <Label Content="Введите дюймы" Grid.Row="0" Grid.Column="0"/>
+                            <Label Content="Введите вёрсты" Grid.Row="0" Grid.Column="0"/>
                             <TextBox x:Name="verst_L" Grid.Row="0" Grid.Column="1" Margin="3"/>
-                            <Button Content="Рассчитать" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Margin="15,5" Click="Button_d_Click"/>
+                            <Button Content="Рассчитать" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Margin="15,5" Click="Button_verst_Click"/>
                             <Label Content="Результат" Grid.Row="3" Grid.Column="0" />
                             <TextBox x:Name="verst_res" Grid.Row="3" Grid.Column="1" Margin="3" IsReadOnly="True"/>
                         </Grid>
